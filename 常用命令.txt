@@ -1,0 +1,68 @@
+
+本人git 帐号： qierjiang31
+Email：        xinbdzh@163.com
+m...
+外网IP：183.195.0.227
+====================================================================================
+
+关闭显卡：sudo /etc/init.d/lightdm stop 
+
+
+====================================================================================
+
+git init
+
+find .git/objects
+git rev-parse 3b18e512d
+git cat-file -p 3b18e512dba79e4c8300dd08aeb37f8e728b8dad
+git write-tree
+git cat-file -p 68aba6 //查询commit组件
+git ls-files -s
+git hash-object hello.txt
+
+
+
+ls -ah //查看隐藏文件
+git log --pretty=oneline 
+
+git reset --hard HEAD^
+git reflog //回退到历史版本后，看不到新版本的logID时，使用此命令可以查看到
+
+git rm test.txt
+
+
+git remote add origin git@github.com:qierjiang31/learngit.git // 把本地库关联远程库
+git push -u origin master // 由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，
+						  //还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
+git push origin master // 把本地master分支的最新修改推送至GitHub，现在，你就拥有了真正的分布式版本库！
+
+
+git checkout -b dev // git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+$ git branch dev
+$ git checkout dev
+
+
+git merge dev // git merge命令用于合并指定分支(dev)到当前分支(master)
+git branch -d dev // 删除dev分支
+
+git log --graph --pretty=oneline --abbrev-commit // 用带参数的git log也可以看到分支的合并情况：
+
+git merge --no-ff -m "merge with no-ff" dev // --no-ff参数，表示禁用Fast forward.因为本次合并要创建一个新的commit，所以加上-m参数，把commit描述写进去。
+
+git stash // 可以把当前工作现场“储藏”起来
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
