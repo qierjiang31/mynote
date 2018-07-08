@@ -50,7 +50,14 @@ git log --graph --pretty=oneline --abbrev-commit // 用带参数的git log也可
 
 git merge --no-ff -m "merge with no-ff" dev // --no-ff参数，表示禁用Fast forward.因为本次合并要创建一个新的commit，所以加上-m参数，把commit描述写进去。
 
+
 git stash // 可以把当前工作现场“储藏”起来
+git stash list
+
+git stash apply
+git stash drop
+
+git stash pop
 
 
 
