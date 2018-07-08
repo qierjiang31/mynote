@@ -1,8 +1,9 @@
-
+hello everybody,this is test file ,don't hit me ^V^ thanks!!!
 本人git 帐号： qierjiang31
 Email：        xinbdzh@163.com
 m...
 外网IP：183.195.0.227
+
 ====================================================================================
 
 关闭显卡：sudo /etc/init.d/lightdm stop 
