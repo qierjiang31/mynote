@@ -59,9 +59,10 @@ git stash drop
 
 git stash pop
 
+git branch -D feature-vulcan // feature-vulcan分支还没有被合并，如果删除，将丢失掉修改，如果要强行删除，需要使用大写的-D参数。。
 
 
-
+ 
 
 
 
