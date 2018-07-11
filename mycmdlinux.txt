@@ -1,4 +1,4 @@
-hello everybody,this is test file ,don't hit me ^V^ thanks!!!
+﻿hello everybody,this is test file ,don't hit me ^V^ thanks!!!
 本人git 帐号： qierjiang31
 Email：        xinbdzh@163.com
 m...
@@ -59,13 +59,10 @@ git stash drop
 
 git stash pop
 
+
 git branch -D feature-vulcan // 强行删除
 
-
-
-
-
-
+ 
 
 
 
