@@ -8,6 +8,8 @@ m...
 
 关闭显卡：sudo /etc/init.d/lightdm stop 
 
+dmidecode -t memory
+
 
 ====================================================================================
 
@@ -67,6 +69,8 @@ git remote
 git remote -v
 
 git checkout -b dev origin/dev // 你的小伙伴要在dev分支上开发，就必须创建远程origin的dev分支到本地 
+
+git branch --set-upstream-to=origin/dev dev // 指定本地dev分支与远程origin/dev分支的链接
 
 
 
