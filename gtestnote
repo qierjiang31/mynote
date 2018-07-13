@@ -1,0 +1,20 @@
+1．库文件（libgtest.a  libgtest_main.a）安装：
+http://www.cnblogs.com/Jessica-jie/p/6704388.html
+
+通过google　gtest源码生成libgtest.a库文件：
+https://blog.csdn.net/changqing5818/article/details/44943137
+
+
+２．Linux下Google Test （GTest）测试环境搭建步骤：（下载谷歌源码，在ｄｅｍｏ中编译测试文件）
+https://www.cnblogs.com/Jessica-jie/p/6705067.html
+
+
+３．google gtest教程（博客）：
+http://www.cnblogs.com/coderzh/archive/2009/03/31/1426758.html
+
+
+
+其他：
+１．环境搭好后，自己建立测试demo，实现测试：
+http://www.habadog.com/2011/09/06/gtest-newhand-forself/
+
