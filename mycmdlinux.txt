@@ -72,6 +72,12 @@ git checkout -b dev origin/dev // 你的小伙伴要在dev分支上开发，就�
 
 git branch --set-upstream-to=origin/dev dev // 指定本地dev分支与远程origin/dev分支的链接
 
+git tag v1.0
+git tag v0.9 5426874
+git tag
+git show v0.9
+
+
 
 
 
