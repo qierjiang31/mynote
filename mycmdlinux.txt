@@ -76,8 +76,13 @@ git tag v1.0
 git tag v0.9 5426874
 git tag
 git show v0.9
+git tag -d v0.1 // 删除本地标签
 
+git push origin <tagname> // 可以推送一个本地标签；
+git push origin --tags // 可以推送全部未推送过的本地标签；
+git push origin :refs/tags/<tagname> // 可以删除一个远程标签。
 
+在GitHub上，可以任意Fork开源仓库；
 
 
 
