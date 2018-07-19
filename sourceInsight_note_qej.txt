@@ -1,5 +1,9 @@
+
+https://www.cnblogs.com/bluestorm/archive/2012/10/28/2743792.html
+
 Alt + F12 // 字符大小不一致
 Alt + F8 // 高亮选中的字符串
 "ctrl + g" 或 "F5"	:跳到指定行
 F3　：本文件查找结果的上一个
 F4　：本文件查找结果的下一个
+Ctrl+M　：创建或查找书签，方便下次找回此位置
