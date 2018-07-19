@@ -105,6 +105,26 @@ $ cat .git/config // 查看git的配置文件
 -----------------------------------------
 linux 系统监视器
 
+采用命令添加源的方法：sudo apt-add-repository 'https://dl.winehq.org/wine-builds/ubuntu/'
+
+查找哪些文件中包含特定字符串的命令：find .|xargs grep -ri "libnmiapserviceproxy"
+                            或者：grep -rn "libnmiapserviceproxy" *
+
+grep -nsr "BeepManagerUnitTest.java" ./
+
+find .  > 1.txt 提取当前文件夹下文件的目录
+find . -type f -name "*.gz" > 1.txt
+meld file1 file2 //比较两个文件
+
+
+搜狗输入法安装：
+1、到搜狗官网下载对应系统的软件包，安装，中间有些其他问题，查网页再配置。
+2、输入im-config 弹出对话框，选择yes，再选择fcitx，确定后重启。
+
+linux命令模式下查看pdf文件需要借助evince命令，如打开当前目录下的a.pdf文件的命令是evince a.pdf
+
+查看内存：sudo dmidecode | grep -A16 "Memory Device$"
+　　　　　然后：free -m 
 
 
 

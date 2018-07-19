@@ -7,3 +7,25 @@ Alt + F8 // 高亮选中的字符串
 F3　：本文件查找结果的上一个
 F4　：本文件查找结果的下一个
 Ctrl+M　：创建或查找书签，方便下次找回此位置
+symbol window Alt+F8打开和关闭
+
+Alt+/ :Look up reference
+完成语法 : Ctrl+E
+复制一行 : Ctrl+K
+剪切一行 : Ctrl+U
+剪切该位置右边的该行的字符 : Ctrl+;
+左边缩进 : F9
+右边缩进 : F10
+插入一行 : Ctrl+I // 在光标上面插入一行
+插入新行 : Ctrl+Enter // 在光标下方插入一行
+
+Ctrl+J ： 把光标当前行和下一行连接成一行
+
+智能重命名 : Ctrl+'
+激活语法窗口 : Alt+L 
+
+// 在匹配的括号上下跳动
+到块的下面 : Ctrl+Shift+]
+到块的上面 : Ctrl+Shift+[
+
+书签 : Ctrl+M
